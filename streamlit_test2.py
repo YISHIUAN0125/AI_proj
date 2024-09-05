@@ -38,6 +38,7 @@ st.subheader("通過對話來發現你的職業內涵")
 
 db_sqlite = get_database_sqlite(path="./job.db")
 db_chroma = get_database_chroma(path="./Database")
+client = OpenAI(api_key=' ')
 
 
 ###################################################################################
